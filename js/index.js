@@ -123,11 +123,3 @@ document.addEventListener("DOMContentLoaded", () => {
            })
     });
 });
-
-const hhh1 = document.querySelector('.hh1');
-document.addEventListener("DOMContentLoaded", () => {
-    Window.addEventListener('onload',()=>
-    {
-        hhh1.classList.add("animate__animated","animate__fadeInDown")
-    })
-});
