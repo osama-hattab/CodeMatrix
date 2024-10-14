@@ -15,27 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
-document.addEventListener("DOMContentLoaded", () => {
-    const items = document.querySelectorAll(".hh1");
-    window.addEventListener('scroll', () => {
-        items.forEach(sec => {
-            const rect = sec.getBoundingClientRect();
-            
-            if (rect.top <= window.innerHeight - 200 && rect.bottom >= 200) {
-                sec.classList.remove('animate__animated', 'animate__fadeOutDown');
-                sec.classList.add('animate__animated', 'animate__fadeInDown');
-
-            } else {
-                sec.classList.remove('animate__animated', 'animate__fadeInDown');
-                sec.classList.add('animate__animated', 'animate__fadeOutDown');
-            }
-        });
-    });
-});
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const items = document.querySelectorAll(".rightt");
     window.addEventListener('scroll', () => {
